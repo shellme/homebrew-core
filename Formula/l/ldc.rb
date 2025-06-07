@@ -2,12 +2,11 @@ class Ldc < Formula
   desc "Portable D programming language compiler"
   homepage "https://wiki.dlang.org/LDC"
   license "BSD-3-Clause"
-  revision 1
   head "https://github.com/ldc-developers/ldc.git", branch: "master"
 
   stable do
-    url "https://github.com/ldc-developers/ldc/releases/download/v1.40.1/ldc-1.40.1-src.tar.gz"
-    sha256 "b643bee2ee6f9819084ef7468cf739257974a99f3980364d20201bc806a4a454"
+    url "https://github.com/ldc-developers/ldc/releases/download/v1.41.0/ldc-1.41.0-src.tar.gz"
+    sha256 "af52818b60706106fb8bca2024685c54eddce929edccae718ad9fbcf689f222f"
 
     # Backport fix for CMake 4
     patch do
