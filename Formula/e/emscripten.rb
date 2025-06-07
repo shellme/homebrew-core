@@ -1,8 +1,8 @@
 class Emscripten < Formula
   desc "LLVM bytecode to JavaScript compiler"
   homepage "https://emscripten.org/"
-  url "https://github.com/emscripten-core/emscripten/archive/refs/tags/4.0.9.tar.gz"
-  sha256 "11a7d950453ee31da03ee3c3b261934ad3d7d2e470e41ea3222a13cecb9b98ef"
+  url "https://github.com/emscripten-core/emscripten/archive/refs/tags/4.0.10.tar.gz"
+  sha256 "dc1493ccc207bf6743f9cc97163c4b7671fbd9e22bec9f79fdc000a0edc774fe"
   license all_of: [
     "Apache-2.0", # binaryen
     "Apache-2.0" => { with: "LLVM-exception" }, # llvm
